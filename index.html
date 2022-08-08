@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Home - Less Prisons, More Mercy</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+	  <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
+    <link href='https://fonts.googleapis.com/css?family=Avenir' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    
+	  <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/ef73251a4a.js" crossorigin="anonymous"></script>
+    
+  </head>
+  
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="take-action.html" class="navAction">Take Action</a></li>
+      </ul>
+    </nav>
+    <header>
+    <div class="headingContainer">
+      <div id="headingText"><h1>Less Prisons, More <span class="navAction">Mercy</span></h1></div>
+      <div class="itemContainer">
+        <div class="headingItems"><img src="assets/poverty.jpg" alt="grayscale picutre of man wearing white pants and dark shirt hunched over and looking into camera"/></div>
+        <div class="headingItems"><img src="assets/racism.jpg" alt="grayscale picture of chessboard with mostly white pawns and one black pawn" /></div>
+        <div class="headingItems grayscaleImg" alt="grayscale picture of bearded man in a hospital gown folding his hands"><img src="assets/mentallyIll.jpg" /></div>
+      </div>
+    </div>
+    </header>
+    <main>
+      <section class="missionContainer">
+        <h2>Mission</h2>
+        <div><p>The mission of Less Prisons, More Mercy is to educate and raise awareness about mass incarceration and its association with poverty, colored communities, and mentally ill or disabled people. Our goal is to ultimately reform the criminal justice system to focus less on punishment and more on rehabilitation and healing.</p><br><p style="text-align: center;"><b style="font-family: 'Koulen', Oswald, Arial, sans-serif; color: #f09d37;">Don't hate, rehabilitate. Let's have mercy on everyone, equally.</b></p></div>
+      </section>
+      <section>
+        <div class="homeHeading grayscaleImg" id="statisticsHeading"><h2>Statistics</h2></div>
+        <div class="flexContainer">
+          <div class="flexItem">
+            <img src="assets/stats1.jpg" alt="infographic that says 'Lifetime Likelihood of Imprisonment of U.S. Citizens Born in 2001', which shows that 1 in 9 of all men may be imprisoned (the one man is colored in orange and the rest in grey). 1 in 17 white men, 1 in 3 black men, 1 in 6 Latinx men, 1 in 56 women, 1 in 111 white women, 1 in 18 black women, and 1 in 45 Latinx women are likely to be imprisoned at some point in their lifetime. "/>
+            <p>Black men are six times as likely to be incarcerated as white men and Latinos are 2.5 times as likely. For Black men in their thirties, about 1 in every 12 is in prison or jail on any given day.</p>
+          </div>
+          <div class="flexItem">
+            <img src="assets/stats2.jpg" alt="a horizontal bar graph (bars are bright green) that shows international rates of incarceratoion per 100,000 people. U.S. - 639, El Salvador - 572, Rwanda = 511, Brazil - 357, Russia- 331, Australia - 160, Spain - 122, China - 121, Canada - 104, France - 93, Germany - 69, Denmark and Sweden - 68, and India - 35."/>
+            <p>There are 2 million people in the nation’s prisons and jails—a 500% increase over the last 40 years. Changes in sentencing law and policy, not changes in crime rates, explain most of this increase. These trends have resulted in prison overcrowding and fiscal burdens on states to accommodate a rapidly expanding penal system, despite increasing evidence that large-scale incarceration is not an effective means of achieving public safety.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="homeHeading grayscaleImg" id="factsHeading"><h2>Fact Generator</h2></div>
+        <div class="factBtnContainer">
+          <div>
+          <p>Click the button below to generate facts about mass incarceration.</p>
+          <button id="factBtn">Generate Fact</button>
+          </div>
+        <div id="factContainer"><p id="fact"></p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer><button onclick="topFunction()" id="topBtn" title="Return to top."><i class='fas fa-angle-up'></i></button></footer>
+    
+  </body>
+</html>
